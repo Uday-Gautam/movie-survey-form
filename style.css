@@ -1,0 +1,107 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+ 
+  }
+  
+  body {
+    background-image: url('assets/Images/pexels-adrien-olichon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    
+  }
+  
+  .container {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 4px 2rem;
+    border: 1px solid;
+    border-radius: 25px;
+  }
+  
+  .main-heading {
+    font-size: 3.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2rem 0rem 1rem;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .form-class {
+    margin: 2rem 0px;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading-field {
+    margin: 1rem 0px 0.6rem;
+  }
+  
+  .field-head {
+    font-size: 1.5rem;
+  }
+  
+  .input-div {
+    margin-bottom: 0.5rem;
+  }
+  
+  .field-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  /* start of form section */
+  .form-control-input {
+    font-size: 1.5rem;
+    padding: 0.5rem 0px;
+    text-indent: 0.4rem;
+    border: none;
+    outline: 1px solid #999999;
+    border-radius: 7px;
+    width: 100%;
+    color: #999;
+  }
+  option {
+    color: #999;
+  }
+  .radio {
+    outline: none;
+  }
+  
+  .form-control-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  
+  .help-text {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    margin: 0px auto;
+    display: block;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid white;
+    background-color: #6E260E;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px #0000;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+ /* end of form section */ 
+  
